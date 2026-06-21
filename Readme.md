@@ -1,6 +1,6 @@
 # 🌱 Soybean Seeds — Classificação com Extração de Features
 
-## 🚀 Configuração do Ambiente
+## Configuração do Ambiente
 
 Antes de executar o projeto, crie um ambiente virtual e instale as dependências.
 
@@ -61,7 +61,7 @@ Soybean Seeds/
 
 ---
 
-## 🔄 Pipeline Geral
+## Pipeline Geral
 
 ```
 Imagens (Soybean Seeds)
@@ -80,7 +80,7 @@ merge_results()  →  results_ALL.csv
 
 ---
 
-## 🧠 Extração de Features (`extract_features.py`)
+## Extração de Features (`extract_features.py`)
 
 | Função | Descrição |
 |---|---|
@@ -91,7 +91,7 @@ merge_results()  →  results_ALL.csv
 
 ---
 
-## ⚙️ Classificadores (`classifiers.py`)
+## Classificadores (`classifiers.py`)
 
 Todos os modelos passam por um pipeline que normaliza os dados antes de classificar:
 
@@ -180,7 +180,7 @@ O `VotingClassifier` com `voting="soft"` combina os 20 modelos calculando a **m�
 
 ---
 
-## 🆚 Comparação entre Backbones
+## Comparação entre Backbones
 
 | Backbone | Melhor Modelo | ACC (%) | Ensemble ACC (%) |
 |---|---|---|---|
@@ -191,7 +191,7 @@ O ViT superou o ResNet50 em todos os modelos, com ganho médio de aproximadament
 
 ---
 
-## 🗂️ Matrizes de Confusão
+## Matrizes de Confusão
 
 ### ResNet50 — Ensemble
 ![Confusion Matrix ResNet50](confusion_ResNet50.png)
