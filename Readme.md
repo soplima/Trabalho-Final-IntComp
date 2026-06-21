@@ -1,35 +1,49 @@
 # 🌱 Soybean Seeds — Classificação com Extração de Features
 
-🚀 Configuração do Ambiente
+## 🚀 Configuração do Ambiente
 
 Antes de executar o projeto, crie um ambiente virtual e instale as dependências.
 
-1. Criar o ambiente virtual
+### 1. Criar o ambiente virtual
+
+```bash
 python3 -m venv venv
-2. Ativar o ambiente virtual
+```
+
+### 2. Ativar o ambiente virtual
 
 Linux/macOS:
 
+```bash
 source venv/bin/activate
+```
 
 Windows (PowerShell):
 
+```powershell
 venv\Scripts\Activate.ps1
-3. Instalar as dependências
+```
+
+### 3. Instalar as dependências
+
+```bash
 pip install --upgrade pip
 pip install -r requirements.txt
-4. Executar o pipeline completo
+```
+
+### 4. Executar o pipeline completo
 
 Extração de features:
 
+```bash
 python extract_features.py
+```
 
 Classificação e avaliação:
 
+```bash
 python classifiers.py
-
----
-
+```
 Classificação de sementes de soja utilizando features extraídas por dois backbones de deep learning (**ResNet50** e **ViT**), combinadas com 20 classificadores clássicos e um ensemble por votação suave.
 
 ---
