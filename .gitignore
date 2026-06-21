@@ -1,0 +1,4 @@
+venv/
+Soybean Seeds/
+result_final_resnet50.csv
+result_final_vit_large.csv

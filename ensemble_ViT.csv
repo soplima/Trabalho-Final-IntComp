@@ -1,0 +1,2 @@
+dataset,model,acc,f1
+ViT,ensemble,94.21367676401233,94.1985588895153

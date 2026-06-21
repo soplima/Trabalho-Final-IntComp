@@ -1,0 +1,2 @@
+dataset,model,acc,f1
+ResNet50,ensemble,87.41157264647198,87.34250860245372
