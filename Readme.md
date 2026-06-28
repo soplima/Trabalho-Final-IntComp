@@ -207,9 +207,9 @@ O ViT superou o ResNet50 em todos os modelos, com ganho médio de aproximadament
 |---|---|
 | `result_final_resnet50.csv` | Features extraídas pelo ResNet50 |
 | `result_final_vit_large.csv` | Features extraídas pelo ViT |
-| `results_all.csv` | ACC e F1 dos 20 modelos individuais (ambos backbones) |
+| `results_individual.csv` | ACC e F1 dos 20 modelos individuais (ambos backbones) |
 | `ensemble_ResNet50.csv` | ACC e F1 do ensemble ResNet50 |
 | `ensemble_ViT.csv` | ACC e F1 do ensemble ViT |
-| `results_ALL.csv` | Tudo junto: individuais + ensembles |
+| `results_all.csv` | Tudo junto: individuais + ensembles |
 | `confusion_ResNet50.png` | Matriz de confusão do ensemble ResNet50 |
 | `confusion_ViT.png` | Matriz de confusão do ensemble ViT |
